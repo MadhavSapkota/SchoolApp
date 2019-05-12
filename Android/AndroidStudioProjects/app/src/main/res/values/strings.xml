@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">SchoolManagement</string>
+    <string name="app_name1">DashBoard</string>
+    <string name="textview">TextView</string>
+    <string name="login">Login</string>
+    <string name="not_a_user">Not a user</string>
+    <string name="Dashboard">50</string>
+    <string name="vehicle">vehicle</string>
+    <string name="module">module</string>
+    <string name="teachers">teachers</string>
+    <string name="student">student</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+    <string name="title_activity_student_admin_panel">StudentAdminPanel</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_sign_in">Sign in</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_admin_transportation_panel">admin_transportation_panel</string>
+    <string name="title_activity_maps_admin">Map</string>
+
+    <string name="title_1">Student Login</string>
+    <string name="title_2">Teacher Login</string>
+    <string name="title_3">Admin Login</string>
+
+    <string name="title_4">A TeacherDetails</string>
+    <string name="title_5">B TeacherDetails</string>
+    <string name="title_6">C TeacherDetails</string>
+
+    <!--<string name="title_4">Ugly card</string>-->
+
+    <string name="text_1">Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Etiam eget ligula eu lectus lobortis condimentum.</string>
+    <string name="text_2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Etiam eget ligula eu lectus lobortis condimentum.</string>
+    <string name="title_activity_student_panel1">StudentDashBoard</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">StudentDashboard</string>
+    <string name="nav_header_subtitle">student@school.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Exit</string>
+    <string name="google_maps_key">map_key</string>
+    <string name="title_activity_teacher_dashboard">teacherDashboard</string>
+
+
+    <string name="count_initial_value">0</string>
+    <string name="button_label">Send</string>
+    <string name="toast_message">Hurra!</string>
+    <string name="input_placeholder">Write a message</string>
+    <string name="simsimi_api">aca4b137-90ce-4e9e-86ac-cad1dd19b086</string>
+    <string name="name">Name</string>
+    <string name="logo">Logo</string>
+    <string name="location">Location</string>
+    <string name="stadium">Stadium</string>
+    <string name="league">League</string>
+    <string name="coach">Coach</string>
+    <string name="star">Star</string>
+
+    <string name="hint_search">Search by Club Name</string>
+    <string name="action_search">Search</string>
+
+
+    <!--Chat application-->
+
+
+    <string name="log_in">Log in</string>
+    <string name="e_g_firebase_admin_admin_com">e.g. firebase_admin@admin.com</string>
+
+    <string name="e_g_password12345">e.g. password12345</string>
+    <string name="register">Register</string>
+    <string name="e_mail_address">E-mail address:</string>
+    <string name="e_g_username">e.g. username</string>
+    <string name="enter_a_message">Enter a message.</string>
+    <string name="on_failure_message">Request failed!</string>
+    <string name="log_into_chat_service">Log into chat service</string>
+    <string name="create_a_new_user">Create a new user</string>
+    <string name="choose_an_entry_option">Choose an entry option.</string>
+    <string name="online_users">Online users</string>
+    <string name="current_online_users_by_username">Current online users by username:</string>
+    <string name="continue_with_register">Continue</string>
+    <string name="choose_an_emoji_to_represent_your_avatar">Choose an emoji to represent your avatar</string>
+    <string name="register_failure">Request failure :S Check if your e-mail is valid.</string>
+    <string name="register_success">Registration successful!</string>
+    <string name="choose_an_awesome_user_by_which_we_will_recognize_you">Choose an awesome username by which we will recognize you!</string>
+    <string name="choose_your_account_details_and_make_sure_to_write_them_down">Choose your account details, and make sure to write them down!</string>
+    <string name="username_taken">Username already taken!</string>
+    <string name="title_activity_admin_dashboard">adminDashboard</string>
+    <string name="title_activity_admin_dash_board">adminDashBoard</string>
+
+
+</resources>

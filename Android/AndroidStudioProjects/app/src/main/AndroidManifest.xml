@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.madhav.schoolmanagement">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="SchoolManagement"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning"
+        tools:replace="android:allowBackup,icon,theme,label">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".welcome_panel"
+            android:label="WelcomePanel" />
+        <activity
+            android:name=".DashBoardActivity"
+            android:label="DashBoard" />
+        <activity
+            android:name=".LoginPage"
+            android:label="AdminLogin"
+            android:parentActivityName=".welcome_panel" />
+        <activity
+            android:name=".SignInActivity"
+            android:label="SignIn" />
+        <activity
+            android:name=".Student_AdminPanel"
+            android:label="StudentAdminPanel"
+            android:parentActivityName=".DashBoardActivity" />
+        <activity
+            android:name=".teacher_admin_panel"
+            android:label="TeacherAdminPanel"
+            android:parentActivityName=".DashBoardActivity" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".DashBoardActivity" />
+        <meta-data
+            android:name="com.google.android.actions"
+            android:resource="@drawable/round_textview" />
+
+        <activity
+            android:name=".notice_admin_panel"
+            android:label="Notice admin panel"
+            android:parentActivityName=".DashBoardActivity" />
+        <activity
+            android:name=".exam_panel_admin"
+            android:label="Exam Panel Admin"
+            android:parentActivityName=".DashBoardActivity" />
+        <activity
+            android:name=".fees_admin"
+            android:label="Fee Panel For Admin"
+            android:parentActivityName=".DashBoardActivity" />
+
+        <!-- <activity -->
+        <!-- android:name=".content_student_panel1" -->
+        <!-- android:label="StudentDashBoard" -->
+        <!-- /> -->
+
+
+        <!-- <activity -->
+        <!-- android:name=".MainActivity" -->
+        <!-- android:label="Fee Panel For Admin" -->
+        <!-- android:parentActivityName=".DashBoardActivity" /> -->
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapsActivity_admin"
+            android:label="MapsActivityAdmin"
+            android:parentActivityName=".DashBoardActivity" />
+        <activity
+            android:name=".StudentPanel1"
+            android:label="@string/title_activity_student_panel1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".studentDataStudentPanel"
+            android:label="STUDENT"
+            android:parentActivityName=".DashBoardActivity" />
+        <activity
+            android:name=".attendanceStudent"
+            android:label="Attendance"
+            android:parentActivityName=".StudentPanel1" />
+        <activity android:name=".attendanceAdmin" />
+        <activity android:name=".NewsActivity" />
+        <activity
+            android:name=".NewsWebView"
+            android:label="Activity"
+            android:parentActivityName=".NewsActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".NewsActivity" />
+        </activity>
+        <activity android:name=".courseStudent" />
+        <activity
+            android:name=".Leave"
+            android:label="LeaveForm"
+            android:parentActivityName=".studentDataStudentPanel">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".studentDataStudentPanel" />
+        </activity>
+        <activity android:name=".leaveDetails" />
+        <activity android:name=".timeTable" />
+        <!-- <activity android:name=".vehicleActivity"/> -->
+        <activity
+            android:name=".vehicleActivity"
+            android:label="Map"
+            android:parentActivityName=".StudentPanel1">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".StudentPanel1" />
+        </activity>
+        <!-- <activity android:name=".studentGrades" /> -->
+        <activity
+            android:name=".studentGrades"
+            android:label="Grades"
+            android:parentActivityName=".studentDataStudentPanel">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".studentDataStudentPanel" />
+        </activity>
+        <activity android:name=".studentGradeTeacher" />
+
+        <!-- <activity android:name=".studentLogin" /> -->
+
+        <activity
+            android:name=".studentLogin"
+            android:label="StudentLogin"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+        <!-- <activity android:name=".studentSignIn" /> -->
+
+        <activity
+            android:name=".studentSignIn"
+            android:label="StudentSignIn"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+        <!-- <activity android:name=".teacherDetailsStudentPanel"/> -->
+
+        <activity
+            android:name=".teacherDetailsStudentPanel"
+            android:label="TeacherInfo"
+            android:parentActivityName=".StudentPanel1">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".StudentPanel1" />
+        </activity>
+
+        <!-- <activity android:name=".studentHomework" /> -->
+
+        <activity
+            android:name=".studentHomework"
+            android:label="HomeworkInformation"
+            android:parentActivityName=".studentDataStudentPanel">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".studentDataStudentPanel" />
+        </activity>
+
+        <!-- <activity android:name=".teacherPanelHomework"></activity> -->
+
+        <activity
+            android:name=".teacherPanelHomework"
+            android:label="HomeworkPanel"
+            android:parentActivityName=".studentDataStudentPanel">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".studentDataStudentPanel" />
+        </activity>
+        <activity
+            android:name=".teacherDashboard"
+            android:label="@string/title_activity_teacher_dashboard"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".teacherData" />
+
+        <!-- <activity android:name=".teacherLogin" /> -->
+
+        <activity
+            android:name=".teacherLogin"
+            android:label="TeacherLogin"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+        <!-- <activity android:name=".teacherSignIn"></activity> -->
+
+        <activity
+            android:name=".teacherSignIn"
+            android:label="TeacherSignIn"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+
+
+
+
+        <activity android:name=".adminteacherData" />
+        <activity android:name=".virtual_webView" />
+        <activity android:name=".NewsActivity1" />
+        <activity
+            android:name=".adminDashBoard"
+            android:label="@string/title_activity_admin_dash_board"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".StudentChat" />
+        <activity android:name=".Register" />
+        <activity android:name=".Users" />
+        <activity android:name=".Chat" />
+        <activity android:name=".dataTeacherAdmin" />
+        <activity android:name=".exam_data_admin" />
+        <activity android:name=".admin_notice_data" />
+        <activity android:name=".fee_data_admin" />
+        <activity android:name=".class_details" />
+        <activity android:name=".studentDisplayFeesData" />
+        <activity android:name=".studentDisplayExamData" />
+        <activity android:name=".studentDisplayNoticeData" />
+        <activity android:name=".AboutUsSchool" />
+        <activity android:name=".ContactUs"></activity>
+    </application>
+
+</manifest>

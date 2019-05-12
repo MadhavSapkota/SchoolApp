@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "388442552538",
+    "firebase_url": "https://alogin-e7f46.firebaseio.com",
+    "project_id": "alogin-e7f46",
+    "storage_bucket": "alogin-e7f46.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:388442552538:android:0f6baaac2f2e3b0c",
+        "android_client_info": {
+          "package_name": "com.example.madhav.schoolmanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "388442552538-fhceroafq0e8fa0l0r7j20i8as8nkqre.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCGsA5JB5PnKziWLi_yxq8ftM5NcMU02g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

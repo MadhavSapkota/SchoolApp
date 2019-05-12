@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContactUs">
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="399dp"
+        android:layout_height="217dp"
+        android:text="Our team is always working to bring convience with our parents as possible as we can .So that feel free to  come here to join us or you can use +977-9863821233 or xyz@gmail.com "
+        android:textSize="18sp" />
+</android.support.constraint.ConstraintLayout>

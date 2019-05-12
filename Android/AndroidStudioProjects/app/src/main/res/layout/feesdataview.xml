@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/side_nav_bar">
+
+    <TextView
+        android:id="@+id/editText23"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText5"
+        android:layout_alignStart="@+id/button7"
+        android:layout_alignLeft="@+id/button7"
+        android:layout_marginStart="-23dp"
+        android:layout_marginLeft="-23dp"
+        android:layout_marginTop="62dp"
+        android:ems="10"
+        android:hint="TotalFee"
+        android:inputType="textPersonName"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/editText25"
+        android:layout_width="127dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText5"
+        android:layout_alignStart="@+id/button7"
+        android:layout_alignLeft="@+id/button7"
+        android:layout_marginStart="-18dp"
+        android:layout_marginLeft="-18dp"
+        android:layout_marginTop="109dp"
+        android:ems="10"
+        android:hint="Date"
+        android:inputType="textPersonName"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/editText21"
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText5"
+        android:layout_alignStart="@+id/button7"
+        android:layout_alignLeft="@+id/button7"
+        android:layout_marginStart="-235dp"
+        android:layout_marginLeft="-235dp"
+        android:layout_marginTop="95dp"
+        android:ems="10"
+        android:hint="Message"
+        android:inputType="textPersonName"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/editText7"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText5"
+        android:layout_alignStart="@+id/button7"
+        android:layout_alignLeft="@+id/button7"
+        android:layout_marginStart="-26dp"
+        android:layout_marginLeft="-26dp"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="RemainingFee"
+        android:inputType="textPersonName"
+        android:textSize="18sp" />
+    <!--<TextView-->
+    <!--android:background="@drawable/round_textview"-->
+    <!--android:id="@+id/text_view_id_27"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:ems="10"-->
+    <!--android:inputType="textPersonName"-->
+    <!--android:lineSpacingExtra="24sp"-->
+    <!--android:shape="rectangle"-->
+    <!--android:text="Student Full Name"-->
+    <!--android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>-->
+
+    <TextView
+        android:id="@+id/editText17"
+        android:layout_width="149dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="69dp"
+        android:ems="10"
+        android:hint="Pathway"
+        android:inputType="textPersonName"
+        android:textSize="18sp"
+        tools:ignore="RtlCompat" />
+
+    <!--<TextView-->
+    <!--android:id="@+id/text_view_id_25"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:ems="10"-->
+    <!--android:inputType="textPersonName"-->
+    <!--android:shape="rectangle"-->
+    <!--android:text="Student Roll Number"-->
+    <!--android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>-->
+
+    <TextView
+        android:id="@+id/editText5"
+        android:layout_width="117dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="39dp"
+        android:ems="10"
+        android:hint="PaidFee"
+        android:inputType="number"
+        android:textSize="18sp"
+        tools:ignore="RtlCompat" />
+
+    <!--<TextView-->
+    <!--android:id="@+id/text_view_id_23"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:ems="10"-->
+    <!--android:inputType="textPersonName"-->
+    <!--android:shape="rectangle"-->
+    <!--android:text="Student Division"-->
+    <!--android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>-->
+
+    <TextView
+        android:id="@+id/editText18"
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editText26"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginBottom="33dp"
+        android:ems="10"
+        android:hint="StudentName"
+        android:inputType="number"
+        android:textSize="18sp"
+        tools:ignore="RtlCompat" />
+
+    <!--<TextView-->
+    <!--android:id="@+id/text_view_id_21"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:ems="10"-->
+    <!--android:inputType="textPersonName"-->
+    <!--android:text="Student Enrollment Number"-->
+    <!--android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>-->
+
+    <TextView
+        android:id="@+id/editText19"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="109dp"
+        android:ems="10"
+        android:hint="Standard"
+        android:inputType="number"
+        android:textSize="18sp"
+        tools:ignore="RtlCompat" />
+
+
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="89dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="192dp"
+        android:background="@drawable/backrgound"
+        tools:ignore="RtlCompat" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="128dp"
+        android:layout_height="37dp"
+
+        android:layout_alignTop="@+id/button19"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:text="Delete" />
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="121dp"
+        android:layout_height="38dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="276dp"
+        android:layout_marginEnd="263dp"
+        android:layout_marginRight="263dp"
+        android:text=""
+        tools:text="" />
+
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="128dp"
+        android:layout_height="35dp"
+        android:layout_alignBottom="@+id/button19"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="131dp"
+        android:layout_marginRight="131dp"
+        android:layout_marginBottom="0dp"
+        android:text="Update"
+        tools:text="Update" />
+
+</RelativeLayout>

@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#89e0f4">
+
+    <TextView
+        android:id="@+id/editText28"
+        android:layout_width="92dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/editText26"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="209dp"
+        android:layout_marginLeft="209dp"
+        android:layout_marginTop="2dp"
+        android:ems="10"
+        android:hint="TeacherId"
+        android:inputType="textPersonName" />
+    <!--<TextView-->
+    <!--android:background="@drawable/round_textview"-->
+    <!--android:id="@+id/text_view_id_27"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:ems="10"-->
+    <!--android:inputType="textPersonName"-->
+    <!--android:lineSpacingExtra="24sp"-->
+    <!--android:shape="rectangle"-->
+    <!--android:text="Student Full Name"-->
+    <!--android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>-->
+
+    <TextView
+        android:id="@+id/editText26"
+        android:layout_width="102dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/editText18"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="-73dp"
+        android:ems="10"
+        android:hint="Teacher Full Name"
+        android:inputType="textPersonName"
+        tools:ignore="RtlCompat" />
+
+    <!--<TextView-->
+    <!--android:id="@+id/text_view_id_25"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:ems="10"-->
+    <!--android:inputType="textPersonName"-->
+    <!--android:shape="rectangle"-->
+    <!--android:text="Student Roll Number"-->
+    <!--android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>-->
+
+    <TextView
+        android:id="@+id/editText24"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editText18"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="-27dp"
+        android:ems="10"
+        android:hint="Teacher Code Number"
+        android:inputType="number"
+        tools:ignore="RtlCompat" />
+
+    <!--<TextView-->
+    <!--android:id="@+id/text_view_id_23"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:ems="10"-->
+    <!--android:inputType="textPersonName"-->
+    <!--android:shape="rectangle"-->
+    <!--android:text="Student Division"-->
+    <!--android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>-->
+
+    <TextView
+        android:id="@+id/editText22"
+        android:layout_width="147dp"
+        android:layout_height="32dp"
+        android:layout_below="@+id/editText18"
+        android:layout_alignStart="@+id/editText24"
+        android:layout_alignBottom="@+id/editText26"
+        android:layout_marginStart="-193dp"
+        android:layout_marginTop="119dp"
+        android:layout_marginBottom="-97dp"
+        android:ems="10"
+        android:hint="Department"
+        android:inputType="number"
+        tools:ignore="RtlCompat" />
+
+    <!--<TextView-->
+    <!--android:id="@+id/text_view_id_21"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:ems="10"-->
+    <!--android:inputType="textPersonName"-->
+    <!--android:text="Student Enrollment Number"-->
+    <!--android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>-->
+
+    <TextView
+        android:id="@+id/editText20"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editText24"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="82dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="number"
+        tools:ignore="RtlCompat" />
+
+    <!--<TextView-->
+    <!--android:id="@+id/text_view_id_19"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:ems="10"-->
+    <!--android:hint="1,2,3,4,5"-->
+    <!--android:inputType="textPersonName"-->
+    <!--android:shape="rectangle"-->
+    <!--android:text="Student_Standard"-->
+    <!--android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>-->
+
+    <TextView
+        android:id="@+id/editText18"
+        android:layout_width="153dp"
+        android:layout_height="34dp"
+        android:layout_alignTop="@+id/editText16"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="204dp"
+        android:layout_marginTop="0dp"
+        android:ems="10"
+        android:hint="Qualification Standard"
+        android:inputType="textMultiLine"
+        tools:ignore="RtlCompat" />
+
+    <!--<TextView-->
+    <!--android:id="@+id/text_view_id_17"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:ems="10"-->
+    <!--android:inputType="textPersonName"-->
+    <!--android:shape="rectangle"-->
+    <!--android:text="Student  Login User Name"-->
+    <!--android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>-->
+
+    <TextView
+        android:id="@+id/editText16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editText14"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-7dp"
+        android:layout_marginTop="125dp"
+        android:ems="10"
+        android:hint="Teacher LoginUserName"
+        android:inputType="textPostalAddress"
+        tools:ignore="RtlCompat" />
+
+    <!--<TextView-->
+    <!--android:id="@+id/text_view_id_15"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:ems="10"-->
+    <!--android:inputType="textPersonName"-->
+    <!--android:shape="rectangle"-->
+    <!--android:text="Student Login Password" />-->
+
+    <TextView
+        android:id="@+id/editText14"
+        android:layout_width="154dp"
+        android:layout_height="29dp"
+        android:layout_below="@+id/editText18"
+        android:layout_alignStart="@+id/editText24"
+        android:layout_marginStart="-190dp"
+        android:layout_marginTop="-137dp"
+        android:ems="10"
+        android:hint="Teacher Login Password"
+        android:inputType="textPassword|number"
+        tools:ignore="RtlCompat" />
+
+    <!--<TextView-->
+    <!--android:id="@+id/text_view_id_13"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:ems="10"-->
+    <!--android:inputType="textPersonName"-->
+    <!--android:shape="rectangle"-->
+    <!--android:text="Student_BirthDate"-->
+    <!--android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>-->
+
+    <TextView
+        android:id="@+id/editText12"
+        android:layout_width="114dp"
+        android:layout_height="17dp"
+        android:layout_below="@+id/editText26"
+        android:layout_alignEnd="@+id/editText8"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="15dp"
+        android:ems="10"
+        android:hint="Teacher_BirthDate"
+        android:inputType="date"
+        tools:ignore="RtlCompat" />
+
+    <!--<TextView-->
+    <!--android:id="@+id/text_view_id_11"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:ems="10"-->
+    <!--android:inputType="textPersonName"-->
+    <!--android:shape="rectangle"-->
+    <!--android:text="Student Address"-->
+    <!--android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/text_view_id_9"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:ems="10"-->
+    <!--android:inputType="textPersonName"-->
+    <!--android:shape="rectangle"-->
+    <!--android:text="Student Parent Phone"-->
+    <!--android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/text_view_id_7"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:ems="10"-->
+    <!--android:inputType="textPersonName"-->
+    <!--android:shape="rectangle"-->
+    <!--android:text="Student_Semester"-->
+    <!--android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/text_view_id"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:ems="10"-->
+    <!--android:inputType="textPersonName"-->
+    <!--android:shape="rectangle"-->
+    <!--android:text="Student_batch"-->
+    <!--android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>-->
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="89dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="221dp"
+        android:background="@drawable/backrgound"
+        tools:ignore="RtlCompat" />
+
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/teachers"
+            android:title="Teacher" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/courses"
+            android:title="Courses" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/student"
+            android:title="Students" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_notifications_black_24dp"
+            android:title="Notice" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/paisa"
+                android:title="Fee" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>

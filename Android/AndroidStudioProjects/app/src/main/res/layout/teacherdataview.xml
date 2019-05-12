@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#89e0f4">
+
+    <TextView
+        android:id="@+id/editText28"
+        android:layout_width="92dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Student Id"
+        android:inputType="textPersonName" />
+    <!--<TextView-->
+    <!--android:background="@drawable/round_textview"-->
+    <!--android:id="@+id/text_view_id_27"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:ems="10"-->
+    <!--android:inputType="textPersonName"-->
+    <!--android:lineSpacingExtra="24sp"-->
+    <!--android:shape="rectangle"-->
+    <!--android:text="Student Full Name"-->
+    <!--android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>-->
+
+    <TextView
+        android:id="@+id/editText26"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText28"
+        android:layout_alignStart="@+id/editText6"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:hint="Student Full Name"
+        android:inputType="textPersonName"
+        tools:ignore="RtlCompat" />
+
+    <!--<TextView-->
+    <!--android:id="@+id/text_view_id_25"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:ems="10"-->
+    <!--android:inputType="textPersonName"-->
+    <!--android:shape="rectangle"-->
+    <!--android:text="Student Roll Number"-->
+    <!--android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>-->
+
+    <TextView
+        android:id="@+id/editText24"
+        android:layout_width="153dp"
+        android:layout_height="22dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="172dp"
+        android:layout_marginEnd="0dp"
+        android:ems="10"
+        android:hint="Student Roll Number"
+        android:inputType="number"
+        tools:ignore="RtlCompat" />
+
+    <!--<TextView-->
+    <!--android:id="@+id/text_view_id_23"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:ems="10"-->
+    <!--android:inputType="textPersonName"-->
+    <!--android:shape="rectangle"-->
+    <!--android:text="Student Division"-->
+    <!--android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>-->
+
+    <TextView
+        android:id="@+id/editText22"
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editText24"
+        android:layout_alignBottom="@+id/editText26"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="33dp"
+        android:ems="10"
+        android:hint="Student Division"
+        android:inputType="number"
+        tools:ignore="RtlCompat" />
+
+    <!--<TextView-->
+    <!--android:id="@+id/text_view_id_21"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:ems="10"-->
+    <!--android:inputType="textPersonName"-->
+    <!--android:text="Student Enrollment Number"-->
+    <!--android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>-->
+
+    <TextView
+        android:id="@+id/editText20"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editText24"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="35dp"
+        android:ems="10"
+        android:hint="Student Enrollment Number"
+        android:inputType="number"
+        tools:ignore="RtlCompat" />
+
+    <!--<TextView-->
+    <!--android:id="@+id/text_view_id_19"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:ems="10"-->
+    <!--android:hint="1,2,3,4,5"-->
+    <!--android:inputType="textPersonName"-->
+    <!--android:shape="rectangle"-->
+    <!--android:text="Student_Standard"-->
+    <!--android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>-->
+
+    <TextView
+        android:id="@+id/editText18"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText10"
+        android:layout_alignStart="@+id/editText24"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="-21dp"
+        android:ems="10"
+        android:hint="Student Standard"
+        android:inputType="textMultiLine"
+        tools:ignore="RtlCompat" />
+
+    <!--<TextView-->
+    <!--android:id="@+id/text_view_id_17"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:ems="10"-->
+    <!--android:inputType="textPersonName"-->
+    <!--android:shape="rectangle"-->
+    <!--android:text="Student  Login User Name"-->
+    <!--android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>-->
+
+    <TextView
+        android:id="@+id/editText16"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editText24"
+        android:layout_alignTop="@+id/editText12"
+        android:ems="10"
+        android:hint="Student LoginUserName"
+        android:inputType="textPostalAddress"
+        tools:ignore="RtlCompat" />
+
+    <!--<TextView-->
+    <!--android:id="@+id/text_view_id_15"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:ems="10"-->
+    <!--android:inputType="textPersonName"-->
+    <!--android:shape="rectangle"-->
+    <!--android:text="Student Login Password" />-->
+
+    <TextView
+        android:id="@+id/editText14"
+        android:layout_width="151dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editText24"
+        android:layout_alignTop="@+id/editText6"
+        android:ems="10"
+        android:hint="Student Login Password"
+        android:inputType="textPassword|number"
+        tools:ignore="RtlCompat" />
+
+    <!--<TextView-->
+    <!--android:id="@+id/text_view_id_13"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:ems="10"-->
+    <!--android:inputType="textPersonName"-->
+    <!--android:shape="rectangle"-->
+    <!--android:text="Student_BirthDate"-->
+    <!--android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>-->
+
+    <TextView
+        android:id="@+id/editText12"
+        android:layout_width="114dp"
+        android:layout_height="17dp"
+        android:layout_alignEnd="@+id/editText8"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="97dp"
+        android:layout_marginEnd="15dp"
+        android:ems="10"
+        android:hint="Student_BirthDate"
+        android:inputType="date"
+        tools:ignore="RtlCompat" />
+
+    <!--<TextView-->
+    <!--android:id="@+id/text_view_id_11"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:ems="10"-->
+    <!--android:inputType="textPersonName"-->
+    <!--android:shape="rectangle"-->
+    <!--android:text="Student Address"-->
+    <!--android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>-->
+
+    <TextView
+        android:id="@+id/editText10"
+        android:layout_width="106dp"
+        android:layout_height="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="278dp"
+        android:ems="10"
+        android:hint="Student Address"
+        android:inputType="textPostalAddress"
+        tools:ignore="RtlCompat" />
+
+    <!--<TextView-->
+    <!--android:id="@+id/text_view_id_9"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:ems="10"-->
+    <!--android:inputType="textPersonName"-->
+    <!--android:shape="rectangle"-->
+    <!--android:text="Student Parent Phone"-->
+    <!--android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>-->
+
+    <TextView
+        android:id="@+id/editText8"
+        android:layout_width="129dp"
+        android:layout_height="22dp"
+        android:layout_above="@+id/editText6"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="18dp"
+        android:ems="10"
+        android:hint="Student Parent Phone"
+        android:inputType="phone" />
+
+    <!--<TextView-->
+    <!--android:id="@+id/text_view_id_7"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:ems="10"-->
+    <!--android:inputType="textPersonName"-->
+    <!--android:shape="rectangle"-->
+    <!--android:text="Student_Semester"-->
+    <!--android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>-->
+
+    <TextView
+        android:id="@+id/editText6"
+        android:layout_width="122dp"
+        android:layout_height="22dp"
+        android:layout_alignStart="@+id/editText4"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="134dp"
+        android:ems="10"
+        android:hint="Student_Semester"
+        android:inputType="number"
+        tools:ignore="RtlCompat" />
+
+    <!--<TextView-->
+    <!--android:id="@+id/text_view_id"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:ems="10"-->
+    <!--android:inputType="textPersonName"-->
+    <!--android:shape="rectangle"-->
+    <!--android:text="Student_batch"-->
+    <!--android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>-->
+
+    <TextView
+        android:id="@+id/editText4"
+        android:layout_width="104dp"
+        android:layout_height="23dp"
+        android:layout_alignTop="@+id/editText24"
+        android:layout_alignEnd="@+id/editText10"
+        android:ems="10"
+        android:hint="Student_batch"
+        android:inputType="number"
+        tools:ignore="RtlCompat" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="89dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="185dp"
+        android:background="@drawable/backrgound"
+        tools:ignore="RtlCompat" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="128dp"
+        android:layout_height="37dp"
+        android:layout_below="@+id/editText24"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="83dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:text="Delete" />
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="121dp"
+        android:layout_height="38dp"
+        android:layout_below="@+id/editText24"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="83dp"
+        android:layout_marginEnd="263dp"
+        android:layout_marginRight="263dp"
+        android:text=""
+        tools:text="" />
+
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="128dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/editText24"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="133dp"
+        android:layout_marginRight="133dp"
+        android:text="Update"
+        tools:text="Update" />
+
+</RelativeLayout>

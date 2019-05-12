@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimaryDark"
+    android:fitsSystemWindows="true">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="498dp"
+
+        android:layout_gravity="top"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="330dp"
+            android:layout_gravity="bottom"
+            android:background="#FF704F7E"
+            android:clipToPadding="false"
+            android:overScrollMode="never"
+            android:paddingStart="@dimen/card_padding"
+            android:paddingLeft="@dimen/card_padding"
+            android:paddingEnd="@dimen/card_padding"
+            android:paddingRight="@dimen/card_padding"
+            android:paddingBottom="30dp">
+
+        </android.support.v4.view.ViewPager>
+
+        <View
+            style="@style/Seperator"
+
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:background="@drawable/backrgound"
+            android:visibility="visible"
+            app:layout_constraintBottom_toTopOf="@+id/button2"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView" />
+        <!--app:layout_constraintHorizontal_bias="10.0dp"-->
+
+        <!--<Button-->
+        <!--android:id="@+id/cardTypeBtn"-->
+        <!--style="@style/ButtonStyle"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Fragment" />-->
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"
+
+            android:background="@drawable/login"
+            android:baselineAligned="false">
+
+
+
+        </android.support.constraint.ConstraintLayout>
+
+
+    </LinearLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

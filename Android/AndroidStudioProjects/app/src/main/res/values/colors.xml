@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#e2d814</color>
+    <color name="colorPrimaryDark">#285c27</color>
+    <color name="colorAccent">#d2bf0e</color>
+
+
+        <!--<color name="colorPrimary">#00B873</color>-->
+        <!--<color name="colorPrimaryDark">#303F9F</color>-->
+        <color name="colorGray">#495C67</color>
+        <!--<color name="colorAccent">#FF4081</color>-->
+        <color name="colorOrange">#f68159</color>
+        <color name="colorLightGray">#a6abae</color>
+
+        <color name="colorBackroundWhite">#f0f2ea</color>
+
+    <color name="today">#4b82ff</color>
+    <color name="greyed_out">#c7c7c7</color>
+
+    <color name="summer">#44eebd82</color>
+    <color name="fall">#44d8d27e</color>
+    <color name="winter">#44a1c1da</color>
+    <color name="spring">#448da64b</color>
+
+
+
+
+    <color name="colorPrimaryLight">#B2DFDB</color>
+
+    <color name="colorPrimaryText">#212121</color>
+    <color name="colorSecondaryText">#757575</color>
+    <color name="colorDivider">#BDBDBD</color>
+    <color name="colorRow">#E5E6EC</color>
+
+
+<!--Chat colors-->
+
+    <color name="white">#FFFFFF</color>
+    <color name="salmon">#ff6e6e</color>
+    <color name="black">#000000</color>
+    <color name="chat">#FFCCCC</color>
+    <color name="dgray">#444444</color>
+
+</resources>
