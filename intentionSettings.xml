@@ -1,0 +1,5 @@
+<application>
+  <component name="IntentionManagerSettings">
+    <ignoreAction name="Language Injection/Inject language or reference" />
+  </component>
+</application>
